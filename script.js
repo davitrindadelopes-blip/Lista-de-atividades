@@ -3,3 +3,7 @@ const input = document.getElementsByClassName('input')
 const todoUL = document.getElementById('todo')
 
 const todos = JSON.parse(localStorage.getItem('todos'))
+
+if(todos){
+    todosforEach(todo => addTodo(todo))}
+
